@@ -24,7 +24,7 @@ Screenshot of basic dungeon setting from Wake up, it's Tuesday
 3. Load and click the play button
 
 #Contribution Guidelines
-To approve any contribution, please contact me through my github profile to suggest any changes.
+To suggest/offer any contribution, please contact me through my github profile.
 
 #Bugs/To-do
 The game is still currently in the early development and design stages.
