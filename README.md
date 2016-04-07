@@ -8,9 +8,11 @@ Developed in the Unity platform with Java.
 
 #Screenshots
 Screenshot from The Legend of Zelda: A Link to the Past
+
 ![Alt text](http://images.eurogamer.net/2013/articles/1/6/3/9/8/8/1/138661019085.jpg "The Legend of Zelda: A Link to the Past")
 
 Screenshot from Secret of Mana
+
 ![Alt text](http://gamefabrique.com/storage/screenshots/snes/secret-of-mana-04.png "Secret of Mana")
 
 Screenshot of basic dungeon setting from Wake up, it's Tuesday
