@@ -37,3 +37,5 @@ Caleb Kauffman - head developer
 #Credit/Inspiration
 Inspiration from the game is derived from older RPG titles (as seen above) which succeeded greatly in fluid gameplay and subtle storytelling. The aim of Wake up it's Tuesday is to provide a sense of mystery and allow the player to discover their circumstances without walls of text.
 
+#License
+Licensing information will be updated as the game continues development.
