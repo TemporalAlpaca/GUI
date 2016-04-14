@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 3df8af52c9a26634aa5411d45eea8c6b
+timeCreated: 1460049114
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BODY_male_Epic_armors_Golden_0
+    21300002: BODY_male_Epic_armors_Golden_1
+    21300004: BODY_male_Epic_armors_Golden_2
+    21300006: BODY_male_Epic_armors_Golden_3
+    21300008: BODY_male_Epic_armors_Golden_4
+    21300010: BODY_male_Epic_armors_Golden_5
+    21300012: BODY_male_Epic_armors_Golden_6
+    21300014: BODY_male_Epic_armors_Golden_7
+    21300016: BODY_male_Epic_armors_Golden_8
+    21300018: BODY_male_Epic_armors_Golden_9
+    21300020: BODY_male_Epic_armors_Golden_10
+    21300022: BODY_male_Epic_armors_Golden_11
+    21300024: BODY_male_Epic_armors_Golden_12
+    21300026: BODY_male_Epic_armors_Golden_13
+    21300028: BODY_male_Epic_armors_Golden_14
+    21300030: BODY_male_Epic_armors_Golden_15
+    21300032: BODY_male_Epic_armors_Golden_16
+    21300034: BODY_male_Epic_armors_Golden_17
+    21300036: BODY_male_Epic_armors_Golden_18
+    21300038: BODY_male_Epic_armors_Golden_19
+    21300040: BODY_male_Epic_armors_Golden_20
+    21300042: BODY_male_Epic_armors_Golden_21
+    21300044: BODY_male_Epic_armors_Golden_22
+    21300046: BODY_male_Epic_armors_Golden_23
+    21300048: BODY_male_Epic_armors_Golden_24
+    21300050: BODY_male_Epic_armors_Golden_25
+    21300052: BODY_male_Epic_armors_Golden_26
+    21300054: BODY_male_Epic_armors_Golden_27
+    21300056: BODY_male_Epic_armors_Golden_28
+    21300058: BODY_male_Epic_armors_Golden_29
+    21300060: BODY_male_Epic_armors_Golden_30
+    21300062: BODY_male_Epic_armors_Golden_31
+    21300064: BODY_male_Epic_armors_Golden_32
+    21300066: BODY_male_Epic_armors_Golden_33
+    21300068: BODY_male_Epic_armors_Golden_34
+    21300070: BODY_male_Epic_armors_Golden_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BODY_male_Epic_armors_Golden_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -19, y: 22}
+        - {x: -19, y: -24}
+        - {x: -17, y: -31}
+        - {x: 19, y: -31}
+        - {x: 19, y: 25}
+    - name: BODY_male_Epic_armors_Golden_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -12, y: 25}
+        - {x: -13, y: 24}
+        - {x: -19, y: 4}
+        - {x: -19, y: -23}
+        - {x: -17, y: -31}
+        - {x: 16, y: -31}
+        - {x: 19, y: -23}
+        - {x: 19, y: 6}
+        - {x: 18, y: 13}
+    - name: BODY_male_Epic_armors_Golden_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -19, y: 4}
+        - {x: -19, y: -18}
+        - {x: -15, y: -29}
+        - {x: -5, y: -32}
+        - {x: 13, y: -32}
+        - {x: 19, y: -21}
+        - {x: 19, y: 10}
+        - {x: 10, y: 25}
+    - name: BODY_male_Epic_armors_Golden_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 24}
+        - {x: -19, y: 17}
+        - {x: -19, y: -23}
+        - {x: -6, y: -32}
+        - {x: 12, y: -32}
+        - {x: 18, y: -20}
+        - {x: 18, y: 9}
+        - {x: 10, y: 24}
+    - name: BODY_male_Epic_armors_Golden_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -11, y: 23}
+        - {x: -19, y: 17}
+        - {x: -19, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 18}
+        - {x: 9, y: 25}
+    - name: BODY_male_Epic_armors_Golden_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -13}
+        - {x: -15, y: -30}
+        - {x: -12, y: -31}
+        - {x: 19, y: -31}
+        - {x: 19, y: 25}
+    - name: BODY_male_Epic_armors_Golden_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -23}
+        - {x: -14, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 25}
+    - name: BODY_male_Epic_armors_Golden_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 24}
+        - {x: -13, y: 24}
+        - {x: -18, y: 7}
+        - {x: -18, y: -13}
+        - {x: -11, y: -32}
+        - {x: 11, y: -32}
+        - {x: 19, y: -24}
+        - {x: 19, y: 0}
+        - {x: 15, y: 20}
+    - name: BODY_male_Epic_armors_Golden_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 25}
+        - {x: -19, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -29}
+        - {x: 19, y: 10}
+        - {x: 11, y: 25}
+    - name: BODY_male_Epic_armors_Golden_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -13, y: 20}
+        - {x: -13, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 25}
+    - name: BODY_male_Epic_armors_Golden_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 23}
+        - {x: 9, y: 24}
+        - {x: -2, y: 24}
+        - {x: -15, y: 17}
+        - {x: -16, y: 10}
+        - {x: -16, y: -28}
+        - {x: -13, y: -31}
+        - {x: -7, y: -32}
+        - {x: 10, y: -32}
+        - {x: 14, y: -27}
+        - {x: 16, y: 0}
+        - {x: 16, y: 14}
+    - name: BODY_male_Epic_armors_Golden_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -14, y: 18}
+        - {x: -14, y: -31}
+        - {x: 9, y: -31}
+        - {x: 16, y: -22}
+        - {x: 16, y: 19}
+        - {x: 15, y: 25}
+    - name: BODY_male_Epic_armors_Golden_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 25}
+        - {x: -7, y: 25}
+        - {x: -13, y: 14}
+        - {x: -13, y: -22}
+        - {x: -9, y: -31}
+        - {x: 15, y: -31}
+        - {x: 16, y: -24}
+        - {x: 16, y: 20}
+        - {x: 13, y: 24}
+    - name: BODY_male_Epic_armors_Golden_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -2, y: 25}
+        - {x: -13, y: 18}
+        - {x: -13, y: -28}
+        - {x: -7, y: -32}
+        - {x: 9, y: -32}
+        - {x: 16, y: -22}
+        - {x: 16, y: 15}
+        - {x: 13, y: 24}
+    - name: BODY_male_Epic_armors_Golden_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 24}
+        - {x: 0, y: 24}
+        - {x: -14, y: 20}
+        - {x: -14, y: -28}
+        - {x: -12, y: -32}
+        - {x: 7, y: -32}
+        - {x: 12, y: -28}
+        - {x: 18, y: -18}
+        - {x: 18, y: 15}
+    - name: BODY_male_Epic_armors_Golden_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -12, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -32}
+        - {x: 9, y: -32}
+        - {x: 17, y: -18}
+        - {x: 17, y: 19}
+        - {x: 16, y: 25}
+    - name: BODY_male_Epic_armors_Golden_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 24}
+        - {x: 12, y: 25}
+        - {x: -7, y: 25}
+        - {x: -13, y: 14}
+        - {x: -13, y: -24}
+        - {x: -10, y: -32}
+        - {x: 8, y: -32}
+        - {x: 17, y: -14}
+        - {x: 17, y: 13}
+    - name: BODY_male_Epic_armors_Golden_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -13, y: 19}
+        - {x: -13, y: -31}
+        - {x: -12, y: -32}
+        - {x: 8, y: -32}
+        - {x: 12, y: -31}
+        - {x: 16, y: -22}
+        - {x: 16, y: 25}
+    - name: BODY_male_Epic_armors_Golden_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -19, y: 19}
+        - {x: -19, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 13}
+        - {x: 10, y: 25}
+    - name: BODY_male_Epic_armors_Golden_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 13}
+        - {x: 11, y: 25}
+        - {x: -9, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -20}
+        - {x: -15, y: -32}
+        - {x: 13, y: -32}
+        - {x: 14, y: -30}
+        - {x: 19, y: -22}
+    - name: BODY_male_Epic_armors_Golden_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -19, y: 3}
+        - {x: -19, y: -22}
+        - {x: -11, y: -32}
+        - {x: 15, y: -32}
+        - {x: 19, y: -26}
+        - {x: 19, y: 10}
+        - {x: 10, y: 25}
+    - name: BODY_male_Epic_armors_Golden_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 24}
+        - {x: -18, y: 17}
+        - {x: -18, y: -21}
+        - {x: -16, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 24}
+    - name: BODY_male_Epic_armors_Golden_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 18}
+        - {x: -19, y: -14}
+        - {x: -18, y: -18}
+        - {x: -15, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 9}
+        - {x: 12, y: 25}
+    - name: BODY_male_Epic_armors_Golden_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 18}
+        - {x: -19, y: -19}
+        - {x: -13, y: -32}
+        - {x: 14, y: -32}
+        - {x: 19, y: -26}
+        - {x: 19, y: 11}
+        - {x: 12, y: 25}
+    - name: BODY_male_Epic_armors_Golden_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -9, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -15}
+        - {x: -13, y: -32}
+        - {x: 15, y: -32}
+        - {x: 19, y: -22}
+        - {x: 19, y: 7}
+        - {x: 13, y: 20}
+    - name: BODY_male_Epic_armors_Golden_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 24}
+        - {x: -13, y: 23}
+        - {x: -19, y: 5}
+        - {x: -19, y: -29}
+        - {x: -18, y: -32}
+        - {x: 16, y: -32}
+        - {x: 18, y: -22}
+        - {x: 18, y: 13}
+        - {x: 4, y: 24}
+    - name: BODY_male_Epic_armors_Golden_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -9, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -14}
+        - {x: -12, y: -32}
+        - {x: 12, y: -32}
+        - {x: 19, y: -24}
+        - {x: 19, y: 4}
+        - {x: 18, y: 12}
+    - name: BODY_male_Epic_armors_Golden_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -16, y: 19}
+        - {x: -16, y: -13}
+        - {x: -13, y: -30}
+        - {x: -11, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: 15}
+        - {x: 6, y: 25}
+    - name: BODY_male_Epic_armors_Golden_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 24}
+    - name: BODY_male_Epic_armors_Golden_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -18}
+        - {x: -13, y: -31}
+        - {x: 14, y: -31}
+        - {x: 14, y: 24}
+        - {x: 7, y: 25}
+    - name: BODY_male_Epic_armors_Golden_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -25}
+        - {x: -8, y: -31}
+        - {x: 10, y: -31}
+        - {x: 13, y: -24}
+        - {x: 13, y: 16}
+        - {x: 8, y: 25}
+    - name: BODY_male_Epic_armors_Golden_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -27}
+        - {x: -9, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: 15}
+        - {x: 6, y: 25}
+    - name: BODY_male_Epic_armors_Golden_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 24}
+        - {x: -18, y: 21}
+        - {x: -18, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: 18}
+        - {x: 1, y: 24}
+    - name: BODY_male_Epic_armors_Golden_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 23}
+        - {x: -17, y: -26}
+        - {x: -15, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: 19}
+        - {x: 4, y: 25}
+    - name: BODY_male_Epic_armors_Golden_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -15}
+        - {x: -6, y: -32}
+        - {x: 9, y: -32}
+        - {x: 13, y: -24}
+        - {x: 13, y: 20}
+        - {x: 11, y: 25}
+    - name: BODY_male_Epic_armors_Golden_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -16, y: 23}
+        - {x: -16, y: -28}
+        - {x: -15, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: 21}
+        - {x: 8, y: 25}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
