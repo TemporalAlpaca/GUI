@@ -17,8 +17,8 @@ Screenshot from Secret of Mana
 
 ![Alt text](http://gamefabrique.com/storage/screenshots/snes/secret-of-mana-04.png "Secret of Mana")
 
-Screenshot of basic dungeon setting from Wake up, it's Tuesday
-![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/dungeon%20map.png "Wake up, it's Tuesday")
+Screenshot of coliseum setting from Wake up, it's Tuesday
+![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Coliseum.png "Wake up, it's Tuesday")
 
 #Installation
 1. Install Unity
