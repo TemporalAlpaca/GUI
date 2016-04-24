@@ -19,16 +19,15 @@ public class MenuScript : MonoBehaviour {
         if (text.GetComponent<Text>().enabled)
             text.GetComponent<Text>().enabled = false;
 
-        text = GameObject.Find("Message1");
-        rend1 = dialogue.GetComponent<SpriteRenderer>();
-        rend1.enabled = true;
-        rend2 = square.GetComponentInChildren<SpriteRenderer>();
-        rend2.enabled = true;
+        //text = GameObject.Find("Message1");
+        //rend1 = dialogue.GetComponent<SpriteRenderer>();
+        //rend1.enabled = true;
+        //rend2 = square.GetComponentInChildren<SpriteRenderer>();
+        //rend2.enabled = true;
 
-        text.GetComponent<Text>().enabled = true;
+        //text.GetComponent<Text>().enabled = true;
 
-        //System.Threading.Thread.Sleep(5000);
-        //Application.Quit();
+       Application.LoadLevel("Scenes/Settings");
     }
 
     public void Freedom()
@@ -36,13 +35,15 @@ public class MenuScript : MonoBehaviour {
         if (text.GetComponent<Text>().enabled)
             text.GetComponent<Text>().enabled = false;
 
-        text = GameObject.Find("Message2");
-        rend1 = dialogue.GetComponent<SpriteRenderer>();
-        rend1.enabled = true;
-        rend2 = square.GetComponentInChildren<SpriteRenderer>();
-        rend2.enabled = true;
+        //text = GameObject.Find("Message2");
+        //rend1 = dialogue.GetComponent<SpriteRenderer>();
+        //rend1.enabled = true;
+        //rend2 = square.GetComponentInChildren<SpriteRenderer>();
+        //rend2.enabled = true;
 
-        text.GetComponent<Text>().enabled = true;
+        //text.GetComponent<Text>().enabled = true;
+
+        Application.LoadLevel("Scenes/Opening");
     }
 
     private Vector3 screenPoint;

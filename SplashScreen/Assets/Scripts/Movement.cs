@@ -29,7 +29,6 @@ public class Movement : MonoBehaviour {
         {
             end = transform.position += Vector3.down * speed * Time.deltaTime;
         }
-
         if(initial == end)
         {
             //WalkRight.enabled = false;
