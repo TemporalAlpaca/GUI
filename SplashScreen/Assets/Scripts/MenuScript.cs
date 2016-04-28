@@ -10,6 +10,8 @@ public class MenuScript : MonoBehaviour {
 
     void Start()
     {
+        AudioListener.volume = PlayerPrefs.GetFloat("volume");
+
         dialogue = GameObject.Find("Dialogue");
         square = GameObject.Find("Square");
     }
