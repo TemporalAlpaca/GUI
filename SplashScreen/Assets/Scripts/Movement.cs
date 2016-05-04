@@ -3,35 +3,42 @@ using System.Collections;
 
 public class Movement : MonoBehaviour {
 
-    public float speed = 1.0f;
-    //public Animator WalkRight;
-    //public Animation WalkUp;
+    Rigidbody2D body;
+    Animator animator;
+    public float speed;
+    string direction;
+
+    void Start()
+    {
+        body = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
-        var initial = transform.position;
-        var end = transform.position;
-        if (Input.GetKey(KeyCode.A))
+        Vector2 movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
+
+        if (movement != Vector2.zero)
         {
-            end = transform.position += Vector3.left * speed * Time.deltaTime;
+            animator.SetBool("walking", true);
+            animator.SetFloat("input_x", movement.x);
+            animator.SetFloat("input_y", movement.y);
         }
-        if (Input.GetKey(KeyCode.D))
+        else
         {
-            end = transform.position += Vector3.right * speed * Time.deltaTime;
-            //WalkRight.enabled = true;
+            animator.SetBool("walking", false);
         }
-        if (Input.GetKey(KeyCode.W))
+
+        body.MovePosition(body.position + movement * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            end = transform.position += Vector3.up * speed * Time.deltaTime;
-           // WalkUp.enabled = true;
+            animator.SetTrigger("Attack");
         }
-        if (Input.GetKey(KeyCode.S))
-        {
-            end = transform.position += Vector3.down * speed * Time.deltaTime;
-        }
-        if(initial == end)
-        {
-            //WalkRight.enabled = false;
-        }
+    }
+
+    void HandleAttack()
+    {
+        
     }
 }

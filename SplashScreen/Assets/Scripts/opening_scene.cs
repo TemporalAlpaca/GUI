@@ -42,5 +42,8 @@ public class opening_scene : MonoBehaviour {
             square.GetComponent<SpriteRenderer>().enabled = false;
             cover.GetComponent<SpriteRenderer>().enabled = false;
         }
+
+        
 	}
+    
 }
