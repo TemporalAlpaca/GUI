@@ -24,6 +24,11 @@ public class Health : MonoBehaviour
         health_bar.value = health;
         //bar.MovePosition(bar.position + movement * Time.deltaTime);
 
+        if(health <= 0)
+        {
+            Debug.Log("Game over");
+        }
+
     }
 
     public float GetHealth()
@@ -34,5 +39,10 @@ public class Health : MonoBehaviour
     public void SetHealth(float h)
     {
         health = h;
+    }
+
+    public void TakeDamage(float dam)
+    {
+        health -= dam;
     }
 }

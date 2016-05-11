@@ -16,6 +16,7 @@ public class Movement : MonoBehaviour {
     BoxCollider2D temp;
     SpriteRenderer reallytemp;
     int hits;
+    AudioSource hit_sound;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class Movement : MonoBehaviour {
         animator = GetComponent<Animator>();
         time = 0;
         hits = 0;
+        hit_sound = GameObject.Find("Hit_Sound").GetComponent<AudioSource>();
 
     }
 
@@ -107,10 +109,9 @@ public class Movement : MonoBehaviour {
         {
             Debug.Log("Hit!");
             hits++;
-            //play hit sound
+            hit_sound.Play();
             if(hits == 10)
                 destroy.SetActive(false);
-
         }
     }
 
