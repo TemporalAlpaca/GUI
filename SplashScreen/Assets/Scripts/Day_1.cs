@@ -48,6 +48,5 @@ public class Day_1 : MonoBehaviour {
             //cover.GetComponent<SpriteRenderer>().enabled = false;
         }
 
-
     }
 }

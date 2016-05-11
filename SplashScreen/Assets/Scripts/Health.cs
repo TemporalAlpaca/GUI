@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        health = 50;
+        health = 100;
         health_bar = GameObject.Find("HealthBar").GetComponent<Slider>();
         health_bar.value = health;
     }

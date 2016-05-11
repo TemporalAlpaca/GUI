@@ -6,7 +6,8 @@ public class Movement : MonoBehaviour {
 
     public Collider2D enemy;
     public float speed;
-
+    public GameObject destroy;
+                
     const double ATTACKTIME = .75;
     Rigidbody2D body;
     Animator animator;
@@ -106,7 +107,16 @@ public class Movement : MonoBehaviour {
         {
             Debug.Log("Hit!");
             hits++;
+            //play hit sound
+            if(hits == 10)
+                destroy.SetActive(false);
+
         }
+    }
+
+    public int getHits()
+    {
+        return hits;
     }
 
 }
