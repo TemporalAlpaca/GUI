@@ -29,7 +29,9 @@ public class MenuScript : MonoBehaviour {
 
         //text.GetComponent<Text>().enabled = true;
 
+#pragma warning disable CS0618 // Type or member is obsolete
        Application.LoadLevel("Scenes/Settings");
+#pragma warning restore CS0618 // Type or member is obsolete
     }
 
     public void Freedom()
@@ -45,7 +47,9 @@ public class MenuScript : MonoBehaviour {
 
         //text.GetComponent<Text>().enabled = true;
 
+#pragma warning disable CS0618 // Type or member is obsolete
         Application.LoadLevel("Scenes/Opening");
+#pragma warning restore CS0618 // Type or member is obsolete
     }
 
     private Vector3 screenPoint;

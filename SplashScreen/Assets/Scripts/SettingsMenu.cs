@@ -14,7 +14,9 @@ public class SettingsMenu : MonoBehaviour {
     }
 	public void onClick()
     {
+#pragma warning disable CS0618 // Type or member is obsolete
         Application.LoadLevel("Scenes/Main_Menu");
+#pragma warning restore CS0618 // Type or member is obsolete
     }
 
     public void changeVolume()
