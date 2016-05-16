@@ -77,8 +77,8 @@ public class Movement : MonoBehaviour {
         }
         CancelHitboxes();
 
-        if (hits >= 10)
-            Debug.Log("You Win!");
+        //if (hits >= 10)
+        //    Debug.Log("You Win!");
     }
 
     void HandleAttack(string direction)
@@ -97,8 +97,20 @@ public class Movement : MonoBehaviour {
 
         if(time <= 0)
         {
-            temp.enabled = false;
-            reallytemp.enabled = false;
+            //temp.enabled = false;
+            //reallytemp.enabled = false;
+            GameObject.Find("Left").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("Left").GetComponent<BoxCollider2D>().enabled = false;
+
+            GameObject.Find("Right").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("Right").GetComponent<BoxCollider2D>().enabled = false;
+
+            GameObject.Find("Up").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("Up").GetComponent<BoxCollider2D>().enabled = false;
+
+            GameObject.Find("Down").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("Down").GetComponent<BoxCollider2D>().enabled = false;
+
         }
     }
 
@@ -120,4 +132,9 @@ public class Movement : MonoBehaviour {
         return hits;
     }
 
+    public Vector2 getPos()
+    {
+        Debug.Log(body.transform.position);
+        return body.transform.position;
+    }
 }

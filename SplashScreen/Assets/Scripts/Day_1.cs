@@ -10,6 +10,9 @@ public class Day_1 : MonoBehaviour {
     public GameObject text;
     public GameObject movement;
     public GameObject ai;
+    bool displayed = false;
+
+    public Movement script;
     int t;
     string find;
     // Use this for initialization
@@ -35,17 +38,38 @@ public class Day_1 : MonoBehaviour {
                 text.GetComponent<Text>().enabled = true;
             }
 
-
         }
 
-        if (t > TEXTNUM)
+        if (t > TEXTNUM && displayed == false)
         {
             text.GetComponent<Text>().enabled = false;
             dialogue.GetComponent<SpriteRenderer>().enabled = false;
             square.GetComponent<SpriteRenderer>().enabled = false;
             movement.GetComponent<Movement>().enabled = true;
-            ai.GetComponent<AIMovement>().enabled = true;
+            ai.GetComponent<Pantless_Knight_AI>().enabled = true;
             //cover.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        if(script.getHits() >= 10 && displayed == false)
+        {
+            Debug.Log("You win!");
+            dialogue = GameObject.Find("WinningDialogue");
+            square = GameObject.Find("WinningSquare");
+            text = GameObject.Find("WinningText");
+
+
+            dialogue.GetComponent<SpriteRenderer>().enabled = true;
+            square.GetComponent<SpriteRenderer>().enabled = true;
+            text.GetComponent<Text>().enabled = true;
+
+            GameObject.Find("WinningDialogue").GetComponent<SpriteRenderer>().enabled = true;
+            displayed = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && displayed)
+        {
+            Debug.Log("next scene");
+            Application.LoadLevel("Scenes/Day2_Opening");
         }
 
     }
