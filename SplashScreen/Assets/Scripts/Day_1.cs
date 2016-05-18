@@ -11,6 +11,7 @@ public class Day_1 : MonoBehaviour {
     public GameObject movement;
     public GameObject ai;
     bool displayed = false;
+    public AudioSource audio;
 
     public Movement script;
     int t;
@@ -18,6 +19,8 @@ public class Day_1 : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        AudioListener.volume = PlayerPrefs.GetFloat("volume");
+
         t = 0;
         find = t.ToString();
         text = GameObject.Find(find);
@@ -48,6 +51,7 @@ public class Day_1 : MonoBehaviour {
             movement.GetComponent<Movement>().enabled = true;
             ai.GetComponent<Pantless_Knight_AI>().enabled = true;
             //cover.GetComponent<SpriteRenderer>().enabled = false;
+            
         }
 
         if(script.getHits() >= 10 && displayed == false)
