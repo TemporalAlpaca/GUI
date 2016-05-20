@@ -69,7 +69,7 @@ public class Day_2 : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space) && displayed)
         {
             Debug.Log("next scene");
-            Application.LoadLevel("Scenes/Day2_Opening");
+            Application.LoadLevel("Scenes/Day3_Opening");
         }
 
     }

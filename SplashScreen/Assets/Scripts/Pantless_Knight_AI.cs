@@ -49,7 +49,7 @@ public class Pantless_Knight_AI : MonoBehaviour {
 
             //attack animation
             hitbox_collider.enabled = true;
-            hitbox_sprite.enabled = true;
+            //hitbox_sprite.enabled = true;
             hitboxtime = ATTACKTIME;
             attacktime = 180;
         }
@@ -65,7 +65,7 @@ public class Pantless_Knight_AI : MonoBehaviour {
         if (hitboxtime <= 0)
         {
             hitbox_collider.enabled = false;
-            hitbox_sprite.enabled = false;
+            //hitbox_sprite.enabled = false;
         }
     }
 

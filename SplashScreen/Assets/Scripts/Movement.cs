@@ -83,10 +83,10 @@ public class Movement : MonoBehaviour {
 
     void HandleAttack(string direction)
     {
-        reallytemp = GameObject.Find(direction).GetComponent<SpriteRenderer>();
+        //reallytemp = GameObject.Find(direction).GetComponent<SpriteRenderer>(); enable to see hitboxes
         temp = GameObject.Find(direction).GetComponent<BoxCollider2D>();
         temp.enabled = true;
-        reallytemp.enabled = true;
+        //reallytemp.enabled = true;
 
         time = ATTACKTIME;
     }
@@ -99,16 +99,16 @@ public class Movement : MonoBehaviour {
         {
             //temp.enabled = false;
             //reallytemp.enabled = false;
-            GameObject.Find("Left").GetComponent<SpriteRenderer>().enabled = false;
+            //GameObject.Find("Left").GetComponent<SpriteRenderer>().enabled = false; enable to see hitboxes
             GameObject.Find("Left").GetComponent<BoxCollider2D>().enabled = false;
 
-            GameObject.Find("Right").GetComponent<SpriteRenderer>().enabled = false;
+           // GameObject.Find("Right").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("Right").GetComponent<BoxCollider2D>().enabled = false;
 
-            GameObject.Find("Up").GetComponent<SpriteRenderer>().enabled = false;
+            //GameObject.Find("Up").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("Up").GetComponent<BoxCollider2D>().enabled = false;
 
-            GameObject.Find("Down").GetComponent<SpriteRenderer>().enabled = false;
+           // GameObject.Find("Down").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("Down").GetComponent<BoxCollider2D>().enabled = false;
 
         }
