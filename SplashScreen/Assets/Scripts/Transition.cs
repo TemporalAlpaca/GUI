@@ -4,10 +4,9 @@ using System.Collections;
 public class Transition : MonoBehaviour {
     public string scene;
 
-    public GameObject character;
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (character.transform.position.y < -7)
+        if (collision.name == "Character")
         {
             Debug.Log("Entered area");
             Application.LoadLevel(scene);

@@ -21,6 +21,8 @@ public class Day_3 : MonoBehaviour {
         t = 0;
         find = t.ToString();
         text = GameObject.Find(find);
+        AudioListener.volume = PlayerPrefs.GetFloat("volume");
+
     }
 
     // Update is called once per frame
