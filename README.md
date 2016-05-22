@@ -23,19 +23,28 @@ Screenshot of coliseum setting from Wake up, it's Tuesday
 #Installation
 1. Install Unity
 2. Open Project
-3. Load and click the play button
+3. Click file tab, and go to build settings
+4. Select your platform, build, and run the program
 
 #Contribution Guidelines
 To suggest/offer any contribution, please contact me through my github profile.
 
 #Bugs/To-do
-The game has reached a stage where most core functionality is present. Movement, attacking, and a damage system are all in place and are relatively bug free. Animations and sounds are also present in the game which give feedback to the user.
+Game is functionally complete, music may still be created for remaining levels.
 
 #Contributors
 Caleb Kauffman - head developer
 
 #Credit/Inspiration
 Inspiration from the game is derived from older RPG titles (as seen above) which succeeded greatly in fluid gameplay and subtle storytelling. The aim of Wake up it's Tuesday is to provide a sense of mystery and allow the player to discover their circumstances without walls of text.
+
+Tileset credits:
+
+http://duskrpg.blogspot.com/
+http://opengameart.org/content/lpc-cavern-and-ruin-tiles
+http://www.lostgarden.com/2006/07/more-free-game-graphics.html
+
+Character sprites and music were self-designed.
 
 #License
 Licensing information will be updated as the game continues development.
