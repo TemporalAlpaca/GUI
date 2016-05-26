@@ -18,13 +18,13 @@ Screenshot from Secret of Mana
 ![Alt text](http://gamefabrique.com/storage/screenshots/snes/secret-of-mana-04.png "Secret of Mana")
 
 Screenshot of coliseum setting from Wake up, it's Tuesday
-![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Coliseum.PNG "Wake up, it's Tuesday")
+![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Coliseum.png "Wake up, it's Tuesday")
 
 Screenshot of "Soapy" Boss Battle
 ![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Soapy.PNG "Soapy")
 
 Screenshot of "Tin" Boss Battle
-![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Robot.png "Tin")
+![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Robot.PNG "Tin")
 
 #Installation
 1. Install Unity
