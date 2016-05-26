@@ -20,6 +20,13 @@ Screenshot from Secret of Mana
 Screenshot of coliseum setting from Wake up, it's Tuesday
 ![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Coliseum.png "Wake up, it's Tuesday")
 
+Screenshot of "Soapy" Boss Battle
+![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Soapy.png "Soapy")
+
+
+Screenshot of "Tin" Boss Battle
+![Alt text](https://raw.githubusercontent.com/TemporalAlpaca/GUI/master/Robot.png "Tin")
+
 #Installation
 1. Install Unity
 2. Open Project
